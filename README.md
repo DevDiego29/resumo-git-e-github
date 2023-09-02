@@ -31,9 +31,9 @@ O que é o GIT?
 
 Breve histórico do GIT:
 
-    2002 - O projeto do núcleo (Kernel) do linux, que é open source, começa a utilizar o BitKeeper, que é um sistema de controle de versão proprietário (DVCS proprietário). 
+       2002 - O projeto do núcleo (Kernel) do linux, que é open source, começa a utilizar o BitKeeper, que é um sistema de controle de versão proprietário (DVCS proprietário). 
 
-    2005 - Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva a Linux Torvalds, o criador do Linux, e sua equipe a desenvolverem sua propria ferramenta, o GIT.
+       2005 - Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva a Linux Torvalds, o criador do Linux, e sua equipe a desenvolverem sua propria ferramenta, o GIT.
 
 Configurando o GIT e seus comandos:
 
@@ -60,11 +60,52 @@ GitHub é a plataforma de hospedagem de código para controle de versão com GIT
 
 Histórico do GitHub:
 
-    2008 - Desenvolvido por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon
+      2008 - Desenvolvido por Chris Wanstrath, J. Hyett, Tom Preston-Werner e Scott Chacon
 
-    2018 - Vitima de um dos maiores ataques de DDoS (ataque distribuido de negação de serviço) ocasionando uma sobrecarga do sistema, comprado pela Microsoft por 7,5 bilhões. 
+      2018 - Vitima de um dos maiores ataques de DDoS (ataque distribuido de negação de serviço) ocasionando uma sobrecarga do sistema, comprado pela Microsoft por 7,5 bilhões. 
 
+Iniciando um projeto GIT
+
+     Abrir uma nova pasta no pc e colocar o nome do projeto;
+     Entrar na pasta criada, clicar no botão direito e abrir no Vscode;
+     Utilizar o comando readme.md; 
+     Abrir o terminal do GIT e colocar o comando git init;
+     git add readme.md manda os arquivos para a área do stading;
+     
+Atualizando projetos no GITHUB
+
+    No VsCode abrir o terminal do Git bash here;
+    git status (verificar se tem arquivo novo ou atualizado);
+    git add . (adicionado os arquivos novos ou atualizados);
+    git commit -a -m “ ”;
+    git pull (puxa as alterações feitas no nosso repositório remoto para pc, usa-se apenas se você fez alterações no repositório remoto, ou se forem projetos trabalhados paralelamente com outras pessoas);
+    git push origin main (envia para o GitHub);
+
+Clonando projetos do GITHUB
+
+    Acessar o GitHub e procurar o projeto que deseja clonar;
+    Copiar a URL do repositório;
+    Criar uma pasta no pc com o nome do projeto;
+    Acessar o CMD;
+    No CMD Digitar cd + nomeDoProjeto;
+    Digitar  git clone + nomeDoProjeto que eu criei;
+    Abrir a pasta no VsCode e digitar git init;
+
+Outra forma de clonar projetos do GITHUB
+
+    Após clonar a URL do projeto do GitHub e criar a pasta no PC;
+    Acesso a pasta criada e abro o Git Bash here;
+    Digitar git clone + URL copiada;
+
+Adicionando projetos no GITHUB
+
+    git init
+    git add . 
+    git commit -m “”
+    Acessar o GitHub, criar um repositório com o nome do projeto;
+    copiar os comandos do segundo quadro e colar no terminal do VsCode;
 
 # 🔍Referências
 
+[https://github.blog/]
 
