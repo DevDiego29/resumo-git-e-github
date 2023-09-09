@@ -35,6 +35,15 @@ Breve histórico do GIT:
 
        2005 - Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva a Linux Torvalds, o criador do Linux, e sua equipe a desenvolverem sua propria ferramenta, o GIT.
 
+Estados do GIT
+
+![Captura de Tela (27)](https://github.com/DevDiego29/resumo-git-e-github/assets/106121812/e5f2cf71-c2c4-44fd-9d8d-ae77bee4af5b)
+
+    Untracked: Criando um arquivo novo que não existia no projeto e adicionando diretamente no staged
+    unmodified: esse arquivo já está mapeado/rastreado pelo git, ou seja, já está salvo no estado em que ele se encontra, ele ja passou pelo processo de Staged, além de já ter dado o commit nele.
+    Modified: arquivo modificado, tem mudanças que eu posso querer passar pra meu proximo commit.
+    Staged: Arquivo fica em Staged, área preparatorio para dar o commit.
+
 Configurando o GIT e seus comandos:
 
 1. Configuração inicial:
