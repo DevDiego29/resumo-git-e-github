@@ -16,7 +16,7 @@ Tipos de sistemas de controle de versão:
 
  1. VCS centralizado (CVCS):
 
-        Segue a topologia em estrela, havendo apenas um único repositório central, mas várias cópias de trabalho, uma para cada desenvolvedor. A comunicação entre uma área de trabalho e outra passa obrigatoriamente pelo repositório central. Teremos as areas de trabalho conectados a um unico servidor. A única desvantagem é que se ficar fora do ar, se houver perca de dados, acaba não conseguindo não salvar. Ex.: CVS, Subversion
+        Segue a topologia em estrela, havendo apenas um único repositório central, mas várias cópias de trabalho, uma para cada desenvolvedor. A comunicação entre uma área de trabalho e outra passa obrigatoriamente pelo repositório central. Teremos as areas de trabalho conectados a um unico servidor. A desvantagem é que se ficar fora do ar, se houver perca de dados, acaba não conseguindo não salvar. Ex.: CVS, Subversion
 
 2. VCS distribuído (DVCS):
 
